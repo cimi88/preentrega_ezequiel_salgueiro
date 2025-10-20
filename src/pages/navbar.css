@@ -1,0 +1,23 @@
+nav {
+    padding: 16px;
+
+    background-color: darkgreen;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 8px 12px;
+
+    color: aliceblue;
+    border-radius: 8px;
+    border: 1px solid #fff;
+
+    &:hover {
+        background-color: rgb(0, 72, 0);
+    }
+
+    &:visited {
+        color: aliceblue;
+    }
+}

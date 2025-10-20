@@ -1,0 +1,45 @@
+.lista-productos {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.card-producto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+
+    margin: 1.5em;
+}
+
+.card-producto .producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    min-height: 420px;
+
+    padding: 8px;
+    
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.card-producto .producto img {
+    width: 75%;
+    border-radius: 8px;
+}
+
+.boton.agregar:hover {
+    background-color: #f7b42d;
+}
+.boton.agregar:active {
+    background-color: #ce9627;
+}
+.boton.verMas:hover {
+    background-color: #2df734;
+}
+.boton.verMas:active {
+    background-color: #3dce27;
+}
