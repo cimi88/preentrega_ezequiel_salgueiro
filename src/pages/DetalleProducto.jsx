@@ -11,7 +11,7 @@ function DetalleProducto() {
             <h2>{producto.nombre}</h2>
             <p>{producto.descripcion}</p>
             <img src={producto.avatar} alt={producto.nombre} title={producto.nombre} />
-            <button>Agregar al cashito</button>
+            <button>Agregar al carrito</button>
             <Link to={"/productos"}>Volver</Link>
         </div>
     );
